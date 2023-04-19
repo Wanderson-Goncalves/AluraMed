@@ -1,0 +1,17 @@
+:root{
+    --fonte: 'Montserrat', sans-serif;
+
+    --azul: #4894ff;
+    --branco: #fff;
+    --cinza: #a3a3a3;
+    
+    --cor-borda:#ECECEC;
+    --cor-botao: #ffb050;
+    --cor-texto: #464646;
+
+    --gradiente-fundo: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+
+    --peso-subtitlo:500;
+    --peso-texto: 400;
+    --peso-titulo: 700;
+}

@@ -1,0 +1,30 @@
+.card {
+    align-self: center;
+    border-radius: 0.5rem;
+    background-color: var(--branco);
+    margin-bottom: 1rem;
+    max-width: 328px;
+    min-width: 328px;
+    padding-bottom: 1rem;
+}
+
+hr {
+    margin-bottom: 0.5625rem;
+    color: var(--cor-texto);
+    opacity: 0.1;
+}
+
+h6 {
+    margin-left: 1rem;
+
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    font-weight: var(--peso-subtitlo);
+}
+
+@media screen and (min-width: 740px) {
+    .card{
+     margin: 1rem;      
+    }
+
+}

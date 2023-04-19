@@ -1,0 +1,53 @@
+.avatar__paciente {
+    display: flex;
+    justify-content: space-between;  
+    padding: 1rem 1rem 0.75rem;  
+   
+}
+.avatar__paciente div{
+    align-items: center;
+    display: flex;
+}
+
+.avatar__paciente  img {
+    border-radius: 50%;
+    height: 2rem;
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+.avatar__paciente div p {
+    color: var(--cinza);
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    
+}
+
+.avatar__paciente  p span {
+    color: var(--cor-texto);
+    display: block;
+    font-size: 0.875rem;
+    font-weight: var(--peso-titulo);
+   
+
+}
+
+.avatar__paciente div p i{
+   font-size: 0.8125rem;
+   margin-right: 0.5rem;
+   text-align: end;
+   }
+
+
+
+.chat {
+    align-items: center;
+    border-radius: 50%;  
+    cursor: pointer;
+    display: flex;
+    color: var(--azul);
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+}
+

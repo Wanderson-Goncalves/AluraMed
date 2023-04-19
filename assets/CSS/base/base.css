@@ -1,0 +1,83 @@
+
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url(../componentes/statusBar/_statusBar.css);
+@import url(../componentes/Avatar/_avatarDoutor.css);
+@import url(../componentes/Avatar/_avatarPaciente.css);
+@import url(../componentes/Cards/card.css);
+@import url(../componentes/Botao/botao.css);
+@import url(../componentes/Nav/nav.css);
+@import url(../componentes/Botao/botaoFutuante.css);
+@import url(../base/fonteFace.css);
+
+
+
+body {
+    background-image: var( --gradiente-fundo);
+    color: var(--cor-texto);
+    font-size: 0.875rem;
+    font-family: var(--fonte);
+    line-height: 1.375rem;
+  
+}
+main{
+    margin-bottom:3rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: var(--peso-titulo);
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+@media screen and (min-width: 740px) {
+    .container{
+       display: grid;
+       grid-template-columns: 1rf 1rf ;
+       grid-auto-flow: row;
+      
+       padding: 16px;
+       justify-content: space-between;
+        
+    }
+    h3{
+       
+        grid-column: 1/3;
+    }
+   
+
+}
+@media screen and (min-width: 1024px){
+     body::-webkit-scrollbar {
+        background-color: var(--cinza);
+        width: 0.5rem;
+        
+    }
+    body::-webkit-scrollbar-thumb, body::-webkit-scrollbar-button{
+        background-color: var(--cor-texto);
+        border-radius: 8px;
+        
+        
+    } 
+    
+    .container{
+        grid-template-columns: 1rf 1rf 1rf;
+       
+    }
+    h3{
+        
+       
+        grid-column: 1/4;
+    }
+    
+}

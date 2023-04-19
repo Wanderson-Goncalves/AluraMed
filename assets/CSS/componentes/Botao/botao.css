@@ -1,0 +1,35 @@
+.ligar {
+    display: flex;
+    gap: 16px;
+    margin: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: var(--cor-botao);
+    color: var(--branco);
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: var(--peso-subtitlo);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(255, 176, 80, 0.16);
+}
+
+.btn__audio {
+    background: none;
+    border: 1px solid var(--cor-borda);
+    color: var(--cor-texto);
+}
+
+.btn-endereco {
+    background-color: var(--azul);
+    box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    width: 296px;
+    height: 48px;
+    color: var(--branco);
+    font-size: 0.875rem;
+    font-weight: var(--peso-subtitlo);
+}

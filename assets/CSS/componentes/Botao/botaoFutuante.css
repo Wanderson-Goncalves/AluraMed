@@ -1,0 +1,65 @@
+.btn__flutuante {
+    align-items: end;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+    position: absolute;
+    right: 16px;
+    bottom: 72px;
+    z-index: 2;
+
+    /* -webkit-backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px) ;deixar 100% dat tela pesquisar */
+
+
+}
+
+
+.btn__flutuante button {
+    background-color: var(--azul);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.btn__flutante-cadastrar {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn__flutuante-primario {
+    background-image: url(../../../icones/maisicone.svg);
+}
+
+.btn__flutuante-consultaVideo {
+    background-image: url(../../../icones/Camerafab.svg);
+}
+
+.btn__flutante-cadastrar-consultaLocal {
+    
+    background-image: url(../../../icones/pinfabiconee.svg);
+
+}
+
+.btn__flutante-cadastrar li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+   
+}
+.btn__flutante-cadastrar li span{
+    background-color: var(--branco);
+    border-radius: 1.4375rem;
+    margin: auto;
+    margin-right: 0.5rem;
+    font-weight: var(----peso-subtitlo);
+    font-size: 0.75rem;
+    padding: 0.125rem 0.5rem;
+   
+}

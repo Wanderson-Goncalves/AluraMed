@@ -1,0 +1,25 @@
+.status__bar {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 2.0625rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.status__bar-horas {
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: var(--peso-texto);
+    
+}
+
+.status__bar-icones {
+    display: flex;
+    gap: 1rem;
+       
+}
+
+.status__bar-icones li{
+   font-size: 0.8125rem;
+}
