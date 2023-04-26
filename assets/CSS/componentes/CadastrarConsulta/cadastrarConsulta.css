@@ -1,0 +1,58 @@
+.cadastrar__consulta {
+    align-items: end;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+    position: fixed;
+    right: 16px;
+    bottom: 72px;
+    z-index: 4;
+}
+
+aside input {
+    display: none;
+}
+
+aside ul {
+    bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    width: 100vw;
+}
+
+aside ul li {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+aside ul li span {
+    background-color: var(--branco);
+    border-radius: 1.4375rem;
+    font-weight: var(----peso-subtitlo);
+    font-size: 0.75rem;
+    margin: auto;
+    margin-right: 0.5rem;
+    padding: 0.125rem 0.5rem;
+}
+
+.check:checked ~ label .btn__flutuante-primario{
+    box-shadow:  0 0 0 180vw rgba(70, 70, 70, 0.70);
+    transform: rotate(45deg);
+}
+
+.cadastrar__consulta-opcoes{
+    opacity: 0;
+    transition: 0.50s ease-in-out;
+   
+}
+
+
+
+.check:checked ~ .cadastrar__consulta-opcoes{
+    opacity: 1;
+
+}
+
