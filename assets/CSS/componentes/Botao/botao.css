@@ -1,19 +1,20 @@
 .ligar {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     margin: 1rem;
     text-align: center;
 }
 
 button {
     background-color: var(--cor-botao);
+    border: none;
     color: var(--branco);
-    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.25rem 1rem rgba(255, 176, 80, 0.16);
     font-size: 0.875rem;
     font-weight: var(--peso-subtitlo);
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0px 4px 16px rgba(255, 176, 80, 0.16);
+    padding: 1rem;
 }
 
 .btn__audio {
@@ -24,12 +25,13 @@ button {
 
 .btn-endereco {
     background-color: var(--azul);
-    box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
+    box-shadow: 0rem 0.25rem 1rem rgba(72, 148, 255, 0.16);
     border: none;
     border-radius: 8px;
-    width: 296px;
-    height: 48px;
     color: var(--branco);
+    cursor: pointer;
     font-size: 0.875rem;
     font-weight: var(--peso-subtitlo);
+    height: 3rem;
+    width: 18.5rem;
 }

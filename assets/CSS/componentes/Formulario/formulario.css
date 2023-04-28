@@ -1,0 +1,61 @@
+.formulario {
+    margin: auto 2rem;
+    padding-bottom: 2rem;
+}
+.formulario section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario label {
+    display: block;
+}
+
+.formulario__nome,
+.formulario__data-hora {
+    background: var(--branco);
+    border: 1px solid var(--cor-placeholder);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: var(--cor-texto);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 238px;
+}
+
+.formulario__nome::placeholder {
+    color: var(--cor-label);
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+.formulario select,
+fieldset {
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    display: flex;
+}
+
+.formulario label, fieldset legend {
+    color: var(--cor-label);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+fieldset label {
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.formulario__observacao {
+    border: 1px solid var(--cor-placeholder);
+    border-radius: 0.5rem;
+    display: block;
+    height: 7.8125rem;
+    margin-bottom: 1rem;
+    width: 14.875rem;
+}

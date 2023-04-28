@@ -1,6 +1,6 @@
 nav {
-    background-color:var(--branco);
-    border-radius: 12px 12px 0px 0px;
+    background-color: var(--branco);
+    border-radius: 0.75rem 0.75rem 0 0;
     bottom: 0;
     box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.06);
     padding: 1rem 0;
@@ -20,8 +20,8 @@ nav {
 }
 
 .menu :not(:first-child) {
-    opacity: 50%;
     color: var(--cor-texto);
+    opacity: 50%;
 }
 
 .menu li a span {
@@ -33,4 +33,37 @@ nav {
 
 .menu:first-child {
     color: var(--azul);
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    nav {
+        grid-area: menu;
+        position: relative;
+        border-radius: 0;
+        box-shadow: none;
+
+    }
+
+    .menu {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menu li {
+        cursor: pointer;
+        margin: 0.5rem;
+    }
+
+    .menu li a span {
+        font-size: 1.5rem;
+        display: inline;
+        vertical-align: middle;
+    }
+
+
+
 }

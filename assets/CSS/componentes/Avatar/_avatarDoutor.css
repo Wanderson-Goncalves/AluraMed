@@ -23,3 +23,10 @@
 .avatar__doutor p {
     color: var(--cinza);
 }
+
+@media screen and (min-width: 1024px) {
+    .avatar__doutor{
+        
+        grid-area: "doutor";
+    }
+}

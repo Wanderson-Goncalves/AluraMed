@@ -1,4 +1,4 @@
-.cadastrar__consulta {
+aside {
     align-items: end;
     display: flex;
     flex-direction: column-reverse;
@@ -43,7 +43,7 @@ aside ul li span {
     transform: rotate(45deg);
 }
 
-.cadastrar__consulta-opcoes{
+.btn__flutante-opcoes{
     opacity: 0;
     transition: 0.50s ease-in-out;
    
@@ -51,8 +51,14 @@ aside ul li span {
 
 
 
-.check:checked ~ .cadastrar__consulta-opcoes{
+.check:checked ~ .btn__flutante-opcoes{
     opacity: 1;
 
+}
+
+@media screen and (min-width: 1024px) {
+    aside{
+        display: none;
+    }
 }
 
