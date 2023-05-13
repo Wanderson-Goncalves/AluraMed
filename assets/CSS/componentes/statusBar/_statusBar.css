@@ -23,3 +23,8 @@
 .status__bar-icones li{
    font-size: 0.8125rem;
 }
+@media screen and (min-width: 1024px){
+    .status__bar {
+        display: none;
+    }
+}

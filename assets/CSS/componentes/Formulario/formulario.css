@@ -59,3 +59,7 @@ fieldset label {
     margin-bottom: 1rem;
     width: 14.875rem;
 }
+
+.formulario input:hover{
+    border: 1px solid var( --cinza);
+}

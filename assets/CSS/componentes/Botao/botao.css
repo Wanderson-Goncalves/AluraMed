@@ -5,7 +5,8 @@
     text-align: center;
 }
 
-button {
+button,
+.btn-agendar {
     background-color: var(--cor-botao);
     border: none;
     color: var(--branco);
@@ -34,4 +35,22 @@ button {
     font-weight: var(--peso-subtitlo);
     height: 3rem;
     width: 18.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .btn-endereco:hover,
+    .chat:hover,
+    .btn__audio:hover {
+        background-color: var(--azul-hover);
+        box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
+        color: var(--branco);
+
+    }
+
+    .btn__video:hover,
+    .btn-agendar:hover {
+
+        background-color: var(--cor-btn-hover);
+    }
 }

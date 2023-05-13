@@ -58,6 +58,10 @@ nav {
         margin: 0.5rem;
     }
 
+    .menu li:hover{
+        background-color: var( --cor-label);
+    }
+
     .menu li a span {
         font-size: 1.5rem;
         display: inline;
